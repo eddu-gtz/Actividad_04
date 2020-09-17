@@ -9,15 +9,15 @@ while True:
     print("2. Conocer mi signo zodiacal")
     print("3. Cálculo del Número e")
     print("0. Salir")
-    op = input("opcion: ")
+    op = input("Opción: ")
 
     #Area de un cuadrado
     if op == "1":
-        print("\n\n1. Area de un cuadrado")
-        print("2. Area de un triangulo")
-        print("3. Area de un circulo")
+        print("\n\n1. Área de un cuadrado")
+        print("2. Área de un triángulo")
+        print("3. Área de un círculo")
 
-        op = input("opcion: ")
+        op = input("Opción: ")
         print("\n")
         if op == "1":
             lado = int(input("Ingresa el lado: "))
@@ -33,11 +33,11 @@ while True:
             f.areaCirculo(radio)
 
         f.imprimirArea()
-        
+
     #Signo zodiacal
     elif op == "2":
         print("\n")
-        dia = int(input("Ingresa tu dia de nacimiento: "))
+        dia = int(input("Ingresa tu día de nacimiento: "))
         mes = int(input("Ingresa tu mes de nacimiento: "))
         
         z = Zodiaco(dia, mes)
@@ -47,11 +47,11 @@ while True:
 
     elif op == "3":
 
-        limite = int(input("\nIngresa el limite de ciclos: "))
+        limite = int(input("\nIngresa el límite de ciclos: "))
 
         e = Numeroe(limite)
 
-        print("\nEl numero e con un limite de ", limite, " es: ", e.calcularE())
+        print("\nEl número e con un límite de ", limite, " es de: ", e.calcularE())
 
     elif op == "0":
         break

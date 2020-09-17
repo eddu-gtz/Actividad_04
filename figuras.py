@@ -12,5 +12,5 @@ class Figuras:
         self.__area = (3.1416) * (radio ** 2)
 
     def imprimirArea(self):
-        print("\nEl area de la figura es: ", self.__area)
+        print("\nEl área de la figura es: ", self.__area)
 

@@ -37,19 +37,19 @@ class Zodiaco:
             if self.__dia >= 1 and self.__dia <= 21:
                 print("Tu signo zodiacal es Tauro")#Tauro
             elif self.__dia >= 22 and self.__dia <= 31:
-                print("Tu signo zodiacal es Geminis")#Geminis
+                print("Tu signo zodiacal es Géminis")#Geminis
 
         #Junio
         elif self.__mes == 6:
             if self.__dia >= 1 and self.__dia <= 21:
-                print("Tu signo zodiacal es Geminis")#Geminis
+                print("Tu signo zodiacal es Géminis")#Geminis
             elif self.__dia >= 22 and self.__dia <= 30:
-                print("Tu signo zodiacal es Cancer")#Cancer
+                print("Tu signo zodiacal es Cáncer")#Cancer
 
         #Julio
         elif self.__mes == 7:
             if self.__dia >= 1 and self.__dia <= 22:
-                print("Tu signo zodiacal es Cancer")#Cancer
+                print("Tu signo zodiacal es Cáncer")#Cancer
             elif self.__dia >= 23 and self.__dia <= 31:
                 print("Tu signo zodiacal es Leo")#Leo
 

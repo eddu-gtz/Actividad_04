@@ -1,5 +1,6 @@
 from figuras import Figuras
 from zodiaco import Zodiaco
+from numeroe import Numeroe
 
 f = Figuras()
 
@@ -44,6 +45,12 @@ while True:
         z.calcularZodiaco()
 
     elif op == "3":
-        pass
+
+        limite = int(input("Ingresa el limite de ciclos: "))
+
+        e = Numeroe(limite)
+        
+        print(e.calcularE())
+
     elif op == "0":
         break

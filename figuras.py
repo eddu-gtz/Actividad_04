@@ -9,8 +9,8 @@ class Figuras:
         self.__area = ( b * h ) / 2
 
     def areaCirculo(self, radio):
-        self.__area = (3.1416 * radio) ** 2
+        self.__area = (3.1416) * (radio ** 2)
 
     def imprimirArea(self):
-        print("El area de la figura es: ", self.__area)
+        print("\nEl area de la figura es: ", self.__area)
 

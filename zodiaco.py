@@ -87,4 +87,7 @@ class Zodiaco:
                 print("Tu signo zodiacal es Sagitario")#Sagitario
             elif self.__dia >= 22 and self.__dia <= 31:
                 print("Tu signo zodiacal es Capricornio")#Capricornio
+        
+        else:
+            print("No existe ese mes")
 

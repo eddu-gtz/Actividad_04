@@ -1,4 +1,5 @@
 from figuras import Figuras
+from zodiaco import Zodiaco
 
 f = Figuras()
 
@@ -9,6 +10,7 @@ while True:
     print("0. Salir")
     op = input("opcion: ")
 
+    #Area de un cuadrado
     if op == "1":
         print("1. Calcular area de un cuadrado")
         print("2. Calcular area de un triangulo")
@@ -32,8 +34,15 @@ while True:
             f.areaCirculo(radio)
             f.imprimirArea()
 
+    #Signo zodiacal
     elif op == "2":
-        pass
+        dia = int(input("Ingresa tu dia de nacimiento: "))
+        mes = int(input("Ingresa tu mes de nacimiento: "))
+        
+        z = Zodiaco(dia, mes)
+
+        z.calcularZodiaco()
+
     elif op == "3":
         pass
     elif op == "0":
